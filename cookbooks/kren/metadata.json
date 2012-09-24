@@ -1,0 +1,30 @@
+{
+  "recipes": {
+    "kren::helloworld": "Prints hello world"
+  },
+  "recommendations": {
+  },
+  "long_description": "Description\n===========\n\nRequirements\n============\n\nAttributes\n==========\n\nUsage\n=====\n\n",
+  "description": "Installs/Configures kren",
+  "platforms": {
+  },
+  "license": "All rights reserved",
+  "version": "0.0.1",
+  "conflicting": {
+  },
+  "providing": {
+  },
+  "maintainer": "YOUR_COMPANY_NAME",
+  "groupings": {
+  },
+  "maintainer_email": "kren@personalcapital.com",
+  "name": "kren",
+  "replacing": {
+  },
+  "suggestions": {
+  },
+  "attributes": {
+  },
+  "dependencies": {
+  }
+}
