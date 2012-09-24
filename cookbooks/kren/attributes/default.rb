@@ -1,4 +1,4 @@
-case node[plateform']
+case node['plateform']
   when 'centos','rtel'
     default[`kren`]['apache_package_name'] = 'httpd'
   when 'ubuntu','debian'
