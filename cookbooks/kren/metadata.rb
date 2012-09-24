@@ -7,3 +7,11 @@ version          "0.0.1"
 
 
 recipe "kren::helloworld", "Prints hello world"
+
+attribute "kren/apache_package_name",
+  :display_name => "apache Package Name",
+  :description => "An override for the apache package name",
+  :default => "apache2",
+  :recipes => ["kren::helloworld"]
+
+
