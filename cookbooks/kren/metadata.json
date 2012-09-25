@@ -1,44 +1,45 @@
 {
-  "description": "Installs/Configures kren",
-  "suggestions": {
-  },
-  "recommendations": {
-  },
-  "conflicting": {
-  },
-  "version": "0.0.1",
-  "dependencies": {
-  },
-  "groupings": {
-  },
-  "maintainer_email": "kren@personalcapital.com",
   "maintainer": "YOUR_COMPANY_NAME",
-  "name": "kren",
+  "recipes": {
+    "kren::helloworld": "Prints hello world",
+    "kren::install_foo": "Moves foo.txt to /tmp/foo.txt"
+  },
   "attributes": {
     "kren/apache_package_name": {
-      "display_name": "apache Package Name",
-      "description": "An override for the apache package name",
-      "calculated": false,
-      "type": "string",
-      "choice": [
-
-      ],
-      "required": "optional",
       "default": "apache2",
       "recipes": [
         "kren::helloworld"
-      ]
+      ],
+      "type": "string",
+      "required": "optional",
+      "display_name": "apache Package Name",
+      "choice": [
+
+      ],
+      "description": "An override for the apache package name",
+      "calculated": false
     }
   },
   "replacing": {
   },
+  "long_description": "Description\n===========\n\nRequirements\n============\n\nAttributes\n==========\n\nUsage\n=====\n\n",
+  "license": "All rights reserved",
+  "groupings": {
+  },
   "providing": {
   },
-  "license": "All rights reserved",
-  "long_description": "Description\n===========\n\nRequirements\n============\n\nAttributes\n==========\n\nUsage\n=====\n\n",
   "platforms": {
   },
-  "recipes": {
-    "kren::helloworld": "Prints hello world"
+  "maintainer_email": "kren@personalcapital.com",
+  "description": "Installs/Configures kren",
+  "name": "kren",
+  "version": "0.0.1",
+  "recommendations": {
+  },
+  "conflicting": {
+  },
+  "suggestions": {
+  },
+  "dependencies": {
   }
 }

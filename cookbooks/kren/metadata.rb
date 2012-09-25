@@ -5,7 +5,7 @@ description      "Installs/Configures kren"
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
 version          "0.0.1"
 
-
+recipe "kren::install_foo", "Moves foo.txt to /tmp/foo.txt"
 recipe "kren::helloworld", "Prints hello world"
 
 attribute "kren/apache_package_name",
